@@ -1,6 +1,7 @@
 FROM alpine
 
 RUN apk --no-cache add \
+    curl \
     openssl \
     openjdk8-jre \
     mysql-client \
