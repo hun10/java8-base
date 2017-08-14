@@ -7,6 +7,8 @@ RUN apk --no-cache add \
     nginx \
  && mkdir /run/nginx
 
+COPY jfx.jar /usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/jfx.jar
+
 ENV DOCKERIZE_VERSION v0.5.0
 
 RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSION/dockerize-alpine-linux-amd64-$DOCKERIZE_VERSION.tar.gz \
