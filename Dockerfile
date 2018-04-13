@@ -6,6 +6,7 @@ RUN apk --no-cache add \
     openjdk8-jre \
     mysql-client \
     nginx \
+    ttf-dejavu \
  && mkdir /run/nginx
 
 COPY jfx.jar /usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/jfx.jar

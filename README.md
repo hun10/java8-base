@@ -7,3 +7,4 @@ Java 8 base image with random tools:
 4. mysql-client
 5. flyway
 6. curl
+7. TTF-dejavu fonts
